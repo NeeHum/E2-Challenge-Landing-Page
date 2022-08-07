@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    margin: 0%;
+}
+
+.logo-header {
+    height: 220px;
+}
+
+.conteiner-bgheader {
+    display: flexbox;
+}
+
+.conteiner-logo{
+    position: absolute;
+    top: 27px;
+    left: 47%;
+}
+
+.menu{
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background: rgb(22, 148, 207);
+}
+
+a:active{
+    background: violet;
+}
+
+.menu1{
+position: absolute;
+top: 90px;
+left: 35%;
+}
+
+.menu2{
+    position: absolute;
+    top: 90px;
+    right: 30%;
+    }
+
+    a{
+        display: flex;
+        display: inline;
+        margin: 20px;
+        flex-wrap: nowrap;
+    }
